@@ -47,15 +47,484 @@
             </div>
             <div class="max-w-3xl container mx-auto px-4 md:px-2 lg:px-0">
                 <h2 class="uppercase text-red-600 font-extrabold text-center text-2xl mt-8">
-                    Winners to be announced after scheduled drawing.
+                    Winners updated weekly.
                 </h2>
 
                 <div
-                    class="mt-2 bg-gray-50 filter drop-shadow md:px-8 py-4 text-center text-xl font-bold"
+                    class="mt-2 bg-gray-50 filter drop-shadow md:px-8 py-4 text-center text-xl font-bold mb-4"
                 >
-                    coming soon!
                     <a class="text-blue-500 underline" href="rules.html">see official rules</a>
                 </div>
+                <h2 class="uppercase text-red-600 font-extrabold text-center text-xl mt-8 mb-4">
+                    Winners Below.
+                </h2>
+                <table
+                    id="winners"
+                    class="stripe mt-4 min-w-full divide-y divide-gray-200 border rounded-lg filter drop-shadow"
+                >
+                    <thead class="bg-gray-50 uppercase">
+                        <tr>
+                            <th
+                                scope="col"
+                                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                            >
+                                Store
+                            </th>
+                            <th
+                                scope="col"
+                                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                            >
+                                Winner's Name
+                            </th>
+                            <th
+                                scope="col"
+                                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                            >
+                                City
+                            </th>
+                            <th
+                                scope="col"
+                                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                            >
+                                State
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                BECKLEY
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                John A.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Beckley
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">WV</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                BLACKSTONE
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Shirley C.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Church Rd
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                BRISTOL
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Angelia P.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Bristol
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">TN</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                BURLINGTON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Dionicio C.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Burlington
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                CHARLES TOWN
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Debra P.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Charlestown
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">WV</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                CHARLOTTESVILLE
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Kathleen P.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Ruckersville
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                CHRISTIANSBURG
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Wesley O.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Staffordsville
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                COLLINSVILLE
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Frances S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Martinsville
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                COVINGTON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                James S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Covenington
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                EDEN
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Priscilla H.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Eden</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                ELKIN
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Maggie Y.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Elkin</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                FRONT ROYAL
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Sandra L.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Front Royal
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                HARRISONBURG
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Ralph K.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Stanley
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                HENDERSON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Mary D.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Warrenten
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                LEWISBURG
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Roger R.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Asbury
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">WV</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                LEXINGTON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Amanda H.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Lexington
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                LURAY
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Cathy S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Luray</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                MOUNT AIRY
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Anthony A.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Mount Airy
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                ORANGE
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Juan Scott M.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Orange
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                OXFORD
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Helen L.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Oxford
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                RICHLANDS
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Ilene H.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Bandy</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                RICHMOND
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Mary M.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Richmond
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                ROANOKE
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Trevor S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                NW Roanoke
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                ROANOKE RAPIDS
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Ruth M. G.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Jackson
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                ROCKY MOUNT
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Claude J.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Glade Hill
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                SOUTH HILL
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Darryl J.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                South Hill
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                STAUNTON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Linda S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Staunton
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                SUFFOLK
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Liza E.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Gatesville
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                WAYNESBORO
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Bonnie B.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Waynesboro
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+
+                        <tr class="bg-white">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                WILLIAMSTON
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Vinita H.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Willimaston
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">NC</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td
+                                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                            >
+                                WINCHESTER
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Jarrett S.
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                Winchester
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VA</td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <h2 class="uppercase text-red-600 font-bold text-center text-xl mt-8"></h2>
             </div>
