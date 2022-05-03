@@ -13,7 +13,12 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css"
+            href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css"
         />
     </head>
 
@@ -546,6 +551,7 @@
             $(document).ready(function () {
                 $("#winners").DataTable({
                     paging: false,
+                    responsive: true,
                 });
             });
         </script>
